@@ -1,13 +1,9 @@
-package java_sem4;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
-public class Main7 {
+public class Main_7 {
     // добавляем 100_000 элементов в список
     // получаем время и сравниваем
-    public static void main7(String[] args) {
+    public static void main(String[] args) {
         List<Integer> list1 = new ArrayList<>();
 
         long time = System.currentTimeMillis();

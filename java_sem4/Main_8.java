@@ -1,18 +1,13 @@
-package gb.ru;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Scanner;
-
-public class Main8 {
+public class Main_8 {
     /**
     * Реализовать консольное приложение, которое:
     * Принимает от пользователя и “запоминает” строки.
     * Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая - последней.
     * Если введено revert, удаляет предыдущую введенную строку из памяти.
     */
-    public static void main8(String[] args) {
+    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             List<String> list = new ArrayList<>();
             String word = "";
