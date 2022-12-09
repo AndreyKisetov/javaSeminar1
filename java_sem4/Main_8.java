@@ -16,9 +16,9 @@ public class Main_8 {
                 if (Objects.equals(word, "print")) {
                     System.out.println(list);
                 } else if (Objects.equals(word, "revert")) {
-                    if (list.size() != 0) {
+                    // if (list.size() != 0) {
                         list.remove(0);
-                    }
+                    // }
                 } else
                     list.add(0, word);
             }
