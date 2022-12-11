@@ -7,7 +7,7 @@ public class Tasc3 {
 //    Если нарушается одно из условий, метод должен бросить RuntimeException с сообщением об ошибке.
     public static void main(String[] args) {
         int[][] nums = {{1, 0}, {0, 2}};
-        sumOf(nums);
+        System.out.println(sumOf(nums));
     }
 
     private static int sumOf(int[][] array) {
